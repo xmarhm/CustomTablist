@@ -1,0 +1,16 @@
+name: CustomTablist
+version: 1.0.0
+main: fr.maghrebsmp.customtablist.CustomTablistPlugin
+api-version: '1.20'
+author: MaghrebSMP
+description: Configurable tablist with ranks, sorting, player count and per-world layouts.
+commands:
+  tablist:
+    description: Reloads the tablist configuration.
+    usage: /tablist reload
+    aliases: [ctl]
+    permission: customtablist.admin
+permissions:
+  customtablist.admin:
+    description: Allows reloading the tablist.
+    default: op

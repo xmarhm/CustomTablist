@@ -1,0 +1,43 @@
+settings:
+  server-name: "MaghrebSMP"
+  tab-name: "%prefix%%player%"
+  chat-name: "%prefix%%player%"
+  chat-format: "%name% &8» &f%message%"
+  header:
+    - "&6&l%server-name%"
+    - "&7Welcome, &f%player%&7!"
+  footer:
+    - "&7Players: &f%online%&7/&f%max-players%"
+    - "&8World: &f%world%"
+
+ranks:
+  owner:
+    permission: "customtablist.rank.owner"
+    priority: 0
+    prefix: "&c&l[OWNER] &c"
+  admin:
+    permission: "customtablist.rank.admin"
+    priority: 10
+    prefix: "&c[Admin] &c"
+  moderator:
+    permission: "customtablist.rank.moderator"
+    priority: 20
+    prefix: "&2[Mod] &2"
+  member:
+    permission: ""
+    priority: 100
+    prefix: "&7"
+
+worlds:
+  world:
+    footer:
+      - "&7Players: &f%online%&7/&f%max-players%"
+      - "&8World: &aOverworld"
+  world_nether:
+    footer:
+      - "&7Players: &f%online%&7/&f%max-players%"
+      - "&8World: &cNether"
+  world_the_end:
+    footer:
+      - "&7Players: &f%online%&7/&f%max-players%"
+      - "&8World: &5The End"
